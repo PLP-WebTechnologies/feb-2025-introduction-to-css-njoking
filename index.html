@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Page</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Domestic Animals</h2>
+        <ol type="I">
+            <li>Cows</li>            
+            <img src="https://www.pexels.com/photo/photo-of-cattle-on-grass-field-2587312/" alt="Professional workspace from Pexels" width="600">    
+            <li>Goats</li>
+            <img src="https://www.pexels.com/photo/two-brown-and-black-goats-2926575/" alt="Professional workspace from Pexels" width="600">  
+            <li>Sheeps</li>
+            <img src="https://www.pexels.com/photo/photo-of-mother-sheep-and-lamb-on-field-2127919/" alt="Professional workspace from Pexels" width="600">  
+            <li>Donkey</li>
+            <img src="https://www.pexels.com/photo/donkey-on-grass-field-598751/" alt="Professional workspace from Pexels" width="600">  
+            <li>Cats</li>
+            <img src="https://www.pexels.com/photo/white-and-grey-kitten-on-brown-and-black-leopard-print-textile-45201/" alt="Professional workspace from Pexels" width="600">  
+            <li>Dogs</li>
+            <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeghttps://www.pexels.com/photo/two-black-short-coated-dogs-2353413/" alt="Professional workspace from Pexels" width="600">  
+            <li>Horse</li>
+            <img src="https://www.pexels.com/photo/white-horse-461717/" alt="Professional workspace from Pexels" width="600">  
+            <li>Goose</li>
+            <img src="https://www.pexels.com/photo/brown-and-white-goose-66863/" alt="Professional workspace from Pexels" width="600">  
+            <li>Rabbit</li>
+            <img src="https://www.pexels.com/photo/close-up-of-rabbit-on-field-326012/" alt="Professional workspace from Pexels" width="600">  
+            <li>Pig</li>
+            <img src="https://www.pexels.com/photo/black-and-brown-pigs-on-grassfield-during-daytime-63285/" alt="Professional workspace from Pexels" width="600">  
+
+        </ol>
+    </section>
+
+    
+    <section>
+        <h2>Featured Image</h2>
+        <img src="domestic-animals.jpg" alt="Professional workspace from Pexels" width="600">
+    </section>
+
+    
+    <section>
+        <h2>Incase You Wantt any of these animals</h2>
+        <h3>Reach out to our support team on the ground</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Muchiri Milkah</td>
+                    <td>Kilimani</td>
+                    <td>0745980550</td>
+                    <td>muchirimilkah@plpeducation.com</td>
+                </tr>
+                <tr>
+                    <td>Joseph King</td>
+                    <td>1214 Naivasha</td>
+                    <td>0112772117</td>
+                    <td>josephking@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Margaret Fine</td>
+                    <td>456 Mombasa </td>
+                    <td>0709332533</td>
+                    <td>michaelj@example.com</td>
+                </tr>
+                <tr>
+                    <td>Gitongaa Ken</td>
+                    <td>644Maseno</td>
+                    <td>0135685900</td>
+                    <td>gitongaken@outlook.com</td>
+                </tr>
+                <tr>
+                    <td>Laureen Kent</td>
+                    <td>200 Kinoo</td>
+                    <td>0115618698</td>
+                    <td>laureenkent34@mail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Incase of any inquiries, fill in the registration form below</h2>
+        <h3>Registration Form</h>
+        <form action="#" method="post">
+            <!-- Name Field -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br><br>
+            
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+            
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br><br>
+            
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+            
+            <!-- Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="usa">Kenya</option>
+                <option value="canada">Tanzania</option>
+                <option value="uk">South Africa</option>
+                <option value="australia">Nigeria</option>
+            </select>
+            <br><br>
+            
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <br><br>
+            
+            <!-- Checkboxes -->
+            <label>Interests:</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="travel" name="interests" value="travel">
+            <label for="travel">Travel</label>
+            <br><br>
+            
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+</body>
+</html>
